@@ -1,0 +1,282 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color:#7f4caf;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+}
+
+nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.photo-section {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.photo-section img {
+    width: 98%;
+    margin: 10px;
+    height:500px;
+}
+
+
+.search-section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    align-self: center;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+
+.search-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color:#7f4caf;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Add a hover effect for the button (optional) */
+button:hover {
+    background-color: #6a0e72;
+}
+
+.newsletter {
+    background-color: black;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.boxi {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: white;
+    font-size: 24px;
+}
+
+p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.email {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.subscribe {
+    background-color:#7f4caf;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.subscribe:hover {
+    background-color: white;
+}
+.destination-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.destination-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.destination-item {
+    flex: 0 0 calc(50% - 20px);
+    margin: 10px;
+}
+
+.destination-item img {
+    width: 100%;
+    border-radius: 8px;
+    height:300px;
+}
+
+.destination-details {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.price {
+    color: white;
+    font-weight: bold;
+}
+
+.buy-tickets-button {
+    background-color: #7f4caf;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buy-tickets-button:hover {
+    background-color: white;
+}
+.contact-container {
+    color: white;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-container h2 {
+    color: white;
+}
+
+.contact-container p {
+    color: white;
+}
+
+.fa {
+    width: 30px;
+}
+
+.contact-input {
+    width: 100%;
+    padding: 16px;
+    color: black;
+    background-color: #b8b4b4;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.contact-button {
+    background-color:#7f4caf;
+    color: #fff;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    background-color: white;
+}
+/* Updated CSS for the flyer */
+.flyer {
+    position: absolute;
+    top: 0px; /* Adjust as needed */
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.rotate {
+    font-size: 36px; /* Adjust font size as needed */
+    font-weight: bold; /* Make the font thicker */
+    animation: moveText 10s linear infinite;
+    display: inline-block;
+    background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+
+@keyframes moveText {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+}
+
+
+/* Add this CSS for the about section */
+.about-section {
+    text-align: center;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.about-section h2 {
+    color: white;
+}
+
+.about-section p {
+    
+    text-align: center;
+    align-self: center;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
