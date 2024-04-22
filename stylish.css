@@ -1,3 +1,5 @@
+
+
 body {
     font-family: sans-serif;
     background-color: black;
@@ -53,11 +55,11 @@ main {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 40%;
+    width: 25%;
     align-self: center;
     position: absolute;
     top: 50%;
-    left: 25%;
+    left: 20%;
     transform: translate(-50%, -50%);
 }
 
@@ -256,8 +258,8 @@ label {
 }
 
 @keyframes moveText {
-    0% { transform: translateX(-100%); }
-    100% { transform: translateX(100%); }
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
 }
 
 
