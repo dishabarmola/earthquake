@@ -10,9 +10,9 @@
     <header>
         <h1>Quakify</h1>
         <nav>
-            <a href="#">Dashboard</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
     
@@ -25,15 +25,8 @@
             </div>
             <section class="search-section">
                 <form action="#">
-                    <div class="search-group">
-                        <label for="latitude">Latitude:</label>
-                        <input type="number" id="latitude" name="latitude" placeholder="Enter Lattitude">
-                    </div>
-                    <div class="search-group">
-                        <label for="longitude">Longitude:</label>
-                        <input type="number" id="longitude" name="longitude" placeholder="Enter Longitude">
-                    </div>
-                    <button type="button" onclick="openLink()">Predict</button>
+                    <label>To know your results click below</label>
+                    <button type="button" onclick="openLink()">GET YOUR PREDICTION</button>
                 </form>
             </section>
         </section>
@@ -48,29 +41,25 @@
                 
             </div>
         </div>
-        <section class="about-section">
+        <section class="about-section" id = "about">
             <h2>About Quakify</h2>
             <p>Quakify is a cutting-edge earthquake predictor utilizing advanced algorithms and real-time data analysis to forecast seismic activity with high accuracy.
                 "Quakify: Revolutionizing Earthquake Prediction with Machine Learning"
                 
                 In a world where natural disasters can strike without warning, the ability to predict earthquakes with precision becomes not just a scientific endeavor but a matter of global safety. Enter Quakify, a cutting-edge website leveraging the power of machine learning (ML) to forecast earthquakes based on latitude and longitude coordinates.
                 
-                Quakify stands at the intersection of technology and seismology, offering a beacon of hope in the face of uncertainty. Traditional methods of earthquake prediction have often relied on historical data and seismological models, but with the advent of ML, there's a newfound ability to analyze vast amounts of complex data in real-time, leading to more accurate predictions.
+                Quakify stands at the intersection of technology and seismology, offering a beacon of hope in the face of uncertainty. With use of ML models, there's a newfound ability to analyze vast amounts of complex data in real-time, leading to more accurate predictions.
                 
                 At its core, Quakify employs sophisticated ML algorithms trained on seismic activity data from around the world. By feeding these algorithms with latitude and longitude coordinates, Quakify can generate predictive models tailored to specific geographic regions, accounting for geological differences and historical seismic patterns</p>
         </section>
       
-        <div class="contact-container">
+        <div class="contact-container"id="contact">
             <h2>Contact</h2>
             <i class="fa fa-map-marker"></i> New Delhi, India<br>
             <i class="fa fa-phone"></i> Phone: +00 151515<br>
             <i class="fa fa-envelope"></i> Email: mail@mail.com<br>
-            <form action="/action_page.php" target="_blank">
-                <p><input class="contact-input" type="text" placeholder="Name" required name="Name"></p>
-                <p><input class="contact-input" type="text" placeholder="Email" required name="Email"></p>
-                <p><input class="contact-input" type="text" placeholder="Message" required name="Message"></p>
-                <p><button class="contact-button" type="submit">SEND MESSAGE</button></p>
-            </form>
+            <br></br>
+            <img src="https://c4.wallpaperflare.com/wallpaper/51/1006/576/the-wreckage-the-city-death-element-wallpaper-preview.jpg" alt="earthquake"style = "width:100%">
         </div>
     </main>
     <script>
