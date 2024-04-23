@@ -1,4 +1,4 @@
-# earthquake
+# earthquake#
 *check your predictions at *
 https://didibi07.github.io/Quakify/
 *Research Paper*
